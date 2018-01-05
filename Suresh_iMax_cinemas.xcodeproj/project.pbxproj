@@ -1,0 +1,561 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AC2072241FFE5BDF00007D99 /* ListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2072231FFE5BDF00007D99 /* ListViewController.swift */; };
+		AC261FEA1FF53402004FBC9C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC261FE91FF53402004FBC9C /* AppDelegate.swift */; };
+		AC261FEC1FF53402004FBC9C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC261FEB1FF53402004FBC9C /* ViewController.swift */; };
+		AC261FEF1FF53402004FBC9C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC261FED1FF53402004FBC9C /* Main.storyboard */; };
+		AC261FF11FF53402004FBC9C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC261FF01FF53402004FBC9C /* Assets.xcassets */; };
+		AC261FF41FF53402004FBC9C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC261FF21FF53402004FBC9C /* LaunchScreen.storyboard */; };
+		AC261FFF1FF53402004FBC9C /* Suresh_iMax_cinemasTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC261FFE1FF53402004FBC9C /* Suresh_iMax_cinemasTests.swift */; };
+		AC26200A1FF53402004FBC9C /* Suresh_iMax_cinemasUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC2620091FF53402004FBC9C /* Suresh_iMax_cinemasUITests.swift */; };
+		AC88BF391FFEB9310088A1D5 /* splash image.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC88BF381FFEB9310088A1D5 /* splash image.jpg */; };
+		AC88BF3B1FFEB9750088A1D5 /* 2a3e5c53dce475f1b00d173f800eb444--christian-inspiration-blue-skies.jpg in Resources */ = {isa = PBXBuildFile; fileRef = AC88BF3A1FFEB9750088A1D5 /* 2a3e5c53dce475f1b00d173f800eb444--christian-inspiration-blue-skies.jpg */; };
+		AC88BF3D1FFEBAA30088A1D5 /* Imax_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC88BF3C1FFEBAA30088A1D5 /* Imax_logo.png */; };
+		AC88BF3F1FFEBF4F0088A1D5 /* 1200px-Pathe_logo.svg.png in Resources */ = {isa = PBXBuildFile; fileRef = AC88BF3E1FFEBF4F0088A1D5 /* 1200px-Pathe_logo.svg.png */; };
+		AC88BF411FFEC2B70088A1D5 /* Striped_apple_logo.png in Resources */ = {isa = PBXBuildFile; fileRef = AC88BF401FFEC2B70088A1D5 /* Striped_apple_logo.png */; };
+		AC88BF431FFECB9F0088A1D5 /* bar.png in Resources */ = {isa = PBXBuildFile; fileRef = AC88BF421FFECB9F0088A1D5 /* bar.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AC261FFB1FF53402004FBC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC261FDE1FF53402004FBC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC261FE51FF53402004FBC9C;
+			remoteInfo = Suresh_iMax_cinemas;
+		};
+		AC2620061FF53402004FBC9C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AC261FDE1FF53402004FBC9C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AC261FE51FF53402004FBC9C;
+			remoteInfo = Suresh_iMax_cinemas;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		AC2072231FFE5BDF00007D99 /* ListViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ListViewController.swift; sourceTree = "<group>"; };
+		AC261FE61FF53402004FBC9C /* Suresh_iMax_cinemas.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Suresh_iMax_cinemas.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC261FE91FF53402004FBC9C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AC261FEB1FF53402004FBC9C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AC261FEE1FF53402004FBC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AC261FF01FF53402004FBC9C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AC261FF31FF53402004FBC9C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AC261FF51FF53402004FBC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC261FFA1FF53402004FBC9C /* Suresh_iMax_cinemasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Suresh_iMax_cinemasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC261FFE1FF53402004FBC9C /* Suresh_iMax_cinemasTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suresh_iMax_cinemasTests.swift; sourceTree = "<group>"; };
+		AC2620001FF53402004FBC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC2620051FF53402004FBC9C /* Suresh_iMax_cinemasUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Suresh_iMax_cinemasUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC2620091FF53402004FBC9C /* Suresh_iMax_cinemasUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Suresh_iMax_cinemasUITests.swift; sourceTree = "<group>"; };
+		AC26200B1FF53402004FBC9C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC88BF381FFEB9310088A1D5 /* splash image.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "splash image.jpg"; sourceTree = "<group>"; };
+		AC88BF3A1FFEB9750088A1D5 /* 2a3e5c53dce475f1b00d173f800eb444--christian-inspiration-blue-skies.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "2a3e5c53dce475f1b00d173f800eb444--christian-inspiration-blue-skies.jpg"; sourceTree = "<group>"; };
+		AC88BF3C1FFEBAA30088A1D5 /* Imax_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Imax_logo.png; sourceTree = "<group>"; };
+		AC88BF3E1FFEBF4F0088A1D5 /* 1200px-Pathe_logo.svg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "1200px-Pathe_logo.svg.png"; sourceTree = "<group>"; };
+		AC88BF401FFEC2B70088A1D5 /* Striped_apple_logo.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Striped_apple_logo.png; sourceTree = "<group>"; };
+		AC88BF421FFECB9F0088A1D5 /* bar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bar.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AC261FE31FF53402004FBC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC261FF71FF53402004FBC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2620021FF53402004FBC9C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AC261FDD1FF53402004FBC9C = {
+			isa = PBXGroup;
+			children = (
+				AC261FE81FF53402004FBC9C /* Suresh_iMax_cinemas */,
+				AC261FFD1FF53402004FBC9C /* Suresh_iMax_cinemasTests */,
+				AC2620081FF53402004FBC9C /* Suresh_iMax_cinemasUITests */,
+				AC261FE71FF53402004FBC9C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		AC261FE71FF53402004FBC9C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AC261FE61FF53402004FBC9C /* Suresh_iMax_cinemas.app */,
+				AC261FFA1FF53402004FBC9C /* Suresh_iMax_cinemasTests.xctest */,
+				AC2620051FF53402004FBC9C /* Suresh_iMax_cinemasUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AC261FE81FF53402004FBC9C /* Suresh_iMax_cinemas */ = {
+			isa = PBXGroup;
+			children = (
+				AC88BF421FFECB9F0088A1D5 /* bar.png */,
+				AC88BF401FFEC2B70088A1D5 /* Striped_apple_logo.png */,
+				AC88BF3E1FFEBF4F0088A1D5 /* 1200px-Pathe_logo.svg.png */,
+				AC88BF3C1FFEBAA30088A1D5 /* Imax_logo.png */,
+				AC88BF3A1FFEB9750088A1D5 /* 2a3e5c53dce475f1b00d173f800eb444--christian-inspiration-blue-skies.jpg */,
+				AC261FE91FF53402004FBC9C /* AppDelegate.swift */,
+				AC261FEB1FF53402004FBC9C /* ViewController.swift */,
+				AC261FED1FF53402004FBC9C /* Main.storyboard */,
+				AC261FF01FF53402004FBC9C /* Assets.xcassets */,
+				AC261FF21FF53402004FBC9C /* LaunchScreen.storyboard */,
+				AC261FF51FF53402004FBC9C /* Info.plist */,
+				AC2072231FFE5BDF00007D99 /* ListViewController.swift */,
+				AC88BF381FFEB9310088A1D5 /* splash image.jpg */,
+			);
+			path = Suresh_iMax_cinemas;
+			sourceTree = "<group>";
+		};
+		AC261FFD1FF53402004FBC9C /* Suresh_iMax_cinemasTests */ = {
+			isa = PBXGroup;
+			children = (
+				AC261FFE1FF53402004FBC9C /* Suresh_iMax_cinemasTests.swift */,
+				AC2620001FF53402004FBC9C /* Info.plist */,
+			);
+			path = Suresh_iMax_cinemasTests;
+			sourceTree = "<group>";
+		};
+		AC2620081FF53402004FBC9C /* Suresh_iMax_cinemasUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AC2620091FF53402004FBC9C /* Suresh_iMax_cinemasUITests.swift */,
+				AC26200B1FF53402004FBC9C /* Info.plist */,
+			);
+			path = Suresh_iMax_cinemasUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AC261FE51FF53402004FBC9C /* Suresh_iMax_cinemas */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC26200E1FF53402004FBC9C /* Build configuration list for PBXNativeTarget "Suresh_iMax_cinemas" */;
+			buildPhases = (
+				AC261FE21FF53402004FBC9C /* Sources */,
+				AC261FE31FF53402004FBC9C /* Frameworks */,
+				AC261FE41FF53402004FBC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Suresh_iMax_cinemas;
+			productName = Suresh_iMax_cinemas;
+			productReference = AC261FE61FF53402004FBC9C /* Suresh_iMax_cinemas.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AC261FF91FF53402004FBC9C /* Suresh_iMax_cinemasTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2620111FF53402004FBC9C /* Build configuration list for PBXNativeTarget "Suresh_iMax_cinemasTests" */;
+			buildPhases = (
+				AC261FF61FF53402004FBC9C /* Sources */,
+				AC261FF71FF53402004FBC9C /* Frameworks */,
+				AC261FF81FF53402004FBC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC261FFC1FF53402004FBC9C /* PBXTargetDependency */,
+			);
+			name = Suresh_iMax_cinemasTests;
+			productName = Suresh_iMax_cinemasTests;
+			productReference = AC261FFA1FF53402004FBC9C /* Suresh_iMax_cinemasTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AC2620041FF53402004FBC9C /* Suresh_iMax_cinemasUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AC2620141FF53402004FBC9C /* Build configuration list for PBXNativeTarget "Suresh_iMax_cinemasUITests" */;
+			buildPhases = (
+				AC2620011FF53402004FBC9C /* Sources */,
+				AC2620021FF53402004FBC9C /* Frameworks */,
+				AC2620031FF53402004FBC9C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AC2620071FF53402004FBC9C /* PBXTargetDependency */,
+			);
+			name = Suresh_iMax_cinemasUITests;
+			productName = Suresh_iMax_cinemasUITests;
+			productReference = AC2620051FF53402004FBC9C /* Suresh_iMax_cinemasUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AC261FDE1FF53402004FBC9C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0810;
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Suresh Kumar YEDLA";
+				TargetAttributes = {
+					AC261FE51FF53402004FBC9C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+					AC261FF91FF53402004FBC9C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC261FE51FF53402004FBC9C;
+					};
+					AC2620041FF53402004FBC9C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AC261FE51FF53402004FBC9C;
+					};
+				};
+			};
+			buildConfigurationList = AC261FE11FF53402004FBC9C /* Build configuration list for PBXProject "Suresh_iMax_cinemas" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AC261FDD1FF53402004FBC9C;
+			productRefGroup = AC261FE71FF53402004FBC9C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AC261FE51FF53402004FBC9C /* Suresh_iMax_cinemas */,
+				AC261FF91FF53402004FBC9C /* Suresh_iMax_cinemasTests */,
+				AC2620041FF53402004FBC9C /* Suresh_iMax_cinemasUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AC261FE41FF53402004FBC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC88BF431FFECB9F0088A1D5 /* bar.png in Resources */,
+				AC261FF41FF53402004FBC9C /* LaunchScreen.storyboard in Resources */,
+				AC88BF3D1FFEBAA30088A1D5 /* Imax_logo.png in Resources */,
+				AC88BF3F1FFEBF4F0088A1D5 /* 1200px-Pathe_logo.svg.png in Resources */,
+				AC88BF3B1FFEB9750088A1D5 /* 2a3e5c53dce475f1b00d173f800eb444--christian-inspiration-blue-skies.jpg in Resources */,
+				AC88BF391FFEB9310088A1D5 /* splash image.jpg in Resources */,
+				AC88BF411FFEC2B70088A1D5 /* Striped_apple_logo.png in Resources */,
+				AC261FF11FF53402004FBC9C /* Assets.xcassets in Resources */,
+				AC261FEF1FF53402004FBC9C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC261FF81FF53402004FBC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2620031FF53402004FBC9C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AC261FE21FF53402004FBC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC261FEC1FF53402004FBC9C /* ViewController.swift in Sources */,
+				AC261FEA1FF53402004FBC9C /* AppDelegate.swift in Sources */,
+				AC2072241FFE5BDF00007D99 /* ListViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC261FF61FF53402004FBC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC261FFF1FF53402004FBC9C /* Suresh_iMax_cinemasTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AC2620011FF53402004FBC9C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AC26200A1FF53402004FBC9C /* Suresh_iMax_cinemasUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AC261FFC1FF53402004FBC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC261FE51FF53402004FBC9C /* Suresh_iMax_cinemas */;
+			targetProxy = AC261FFB1FF53402004FBC9C /* PBXContainerItemProxy */;
+		};
+		AC2620071FF53402004FBC9C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AC261FE51FF53402004FBC9C /* Suresh_iMax_cinemas */;
+			targetProxy = AC2620061FF53402004FBC9C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AC261FED1FF53402004FBC9C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC261FEE1FF53402004FBC9C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AC261FF21FF53402004FBC9C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AC261FF31FF53402004FBC9C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AC26200C1FF53402004FBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC26200D1FF53402004FBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AC26200F1FF53402004FBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Suresh_iMax_cinemas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epita.fr.Suresh-iMax-cinemas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AC2620101FF53402004FBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Suresh_iMax_cinemas/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epita.fr.Suresh-iMax-cinemas";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AC2620121FF53402004FBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Suresh_iMax_cinemasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epita.fr.Suresh-iMax-cinemasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suresh_iMax_cinemas.app/Suresh_iMax_cinemas";
+			};
+			name = Debug;
+		};
+		AC2620131FF53402004FBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = Suresh_iMax_cinemasTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epita.fr.Suresh-iMax-cinemasTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Suresh_iMax_cinemas.app/Suresh_iMax_cinemas";
+			};
+			name = Release;
+		};
+		AC2620151FF53402004FBC9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Suresh_iMax_cinemasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epita.fr.Suresh-iMax-cinemasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Suresh_iMax_cinemas;
+			};
+			name = Debug;
+		};
+		AC2620161FF53402004FBC9C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = Suresh_iMax_cinemasUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "epita.fr.Suresh-iMax-cinemasUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Suresh_iMax_cinemas;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AC261FE11FF53402004FBC9C /* Build configuration list for PBXProject "Suresh_iMax_cinemas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC26200C1FF53402004FBC9C /* Debug */,
+				AC26200D1FF53402004FBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC26200E1FF53402004FBC9C /* Build configuration list for PBXNativeTarget "Suresh_iMax_cinemas" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC26200F1FF53402004FBC9C /* Debug */,
+				AC2620101FF53402004FBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2620111FF53402004FBC9C /* Build configuration list for PBXNativeTarget "Suresh_iMax_cinemasTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2620121FF53402004FBC9C /* Debug */,
+				AC2620131FF53402004FBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AC2620141FF53402004FBC9C /* Build configuration list for PBXNativeTarget "Suresh_iMax_cinemasUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AC2620151FF53402004FBC9C /* Debug */,
+				AC2620161FF53402004FBC9C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AC261FDE1FF53402004FBC9C /* Project object */;
+}
